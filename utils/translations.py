@@ -3,9 +3,9 @@ import gettext
 from enum import Enum
 
 
-class Languages(Enum):
-    class English(Enum):
-        US = gettext.translation('messages', 'locales', ['en_US'])
+# class Languages(Enum):
+#     class English(Enum):
+#         US = gettext.translation('messages', 'locales', ['en_US'])
 
 
 def translation(string):

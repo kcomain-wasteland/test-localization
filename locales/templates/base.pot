@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: i18n@kcomain.dev\n"
-"POT-Creation-Date: 2021-05-31 20:19+0800\n"
+"POT-Creation-Date: 2021-05-31 23:32+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,23 @@ msgstr ""
 msgid "test"
 msgstr ""
 
+#: main.py:6
+msgid "who are you? "
+msgstr ""
+
 #: main.py:7
 msgid "hello, user {username}"
+msgstr ""
+
+#: main.py:9
+msgid "have you eaten anything yet? "
+msgstr ""
+
+#: main.py:10
+msgid "good!"
+msgstr ""
+
+#: main.py:12
+msgid "go eat something!!"
 msgstr ""
 
