@@ -10,3 +10,5 @@ if input(_('have you eaten anything yet? ')).startswith('y'):
     print(_('good!'))
 else:
     print(_('go eat something!!'))
+
+print(_('See you later!'))
