@@ -32,8 +32,9 @@ extract() {
     if [ ! -d ./locales/templates ]; then
         mkdir -p ./locales/templates
     fi
-        pybabel extract . -o ./locales/templates/base.pot
-#    fi
+    pybabel extract . -o ./locales/templates/base.pot \
+        --copyright-holder=kcomain \
+        --msgid-bugs-address=i18n@kcomain.dev
 }
 
 new() {
@@ -43,8 +44,8 @@ new() {
 case $1 in
     "help"     ) show_help ;;
     "extract"  ) extract ;;
-    "update"   ) pybabel update -i locales/templates/base.pot -d locales -D bot ;;
+    "update"   ) pybabel update -i locales/templates/base.pot -d locales ;;
     "new"      ) new "$2" "$3" ;;
-    "compile"  ) pybabel compile -d locales -D bot ;;
+    "compile"  ) pybabel compile -d locales ;;
     *          ) echo "No such command"; V2="" show_help; exit 1 ;;
 esac

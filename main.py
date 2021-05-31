@@ -1,7 +1,7 @@
-def _(param):
-    pass
+from utils.translations import _
 
+LANG = 'zh-TW'
 
-_('test')
+print(_('test'))
 
 print(_('hello, user {username}').format(username=input()))
