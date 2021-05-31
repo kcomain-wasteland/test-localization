@@ -29,22 +29,22 @@ EOF
 }
 
 extract() {
-    if [ ! -d ./locales/templates ]; then
-        mkdir -p ./locales/templates
+    if [ ! -d ./locales/en-US/LC_MESSAGES ]; then
+        mkdir -p ./locales/en-US/LC_MESSAGES
     fi
-    pybabel extract . -o ./locales/templates/base.pot \
+    pybabel extract . -o ./locales/en-US/LC_MESSAGES/messages.pot \
         --copyright-holder=kcomain \
         --msgid-bugs-address=i18n@kcomain.dev
 }
 
 new() {
-    pybabel init -l "$1" "$2" -i locales/base.pot -d locale -D bot
+    pybabel init -l "$1" "$2" -i locales/en-US/LC_MESSAGES/messages.pot -d locale -D bot
 }
 
 case $1 in
     "help"     ) show_help ;;
     "extract"  ) extract ;;
-    "update"   ) pybabel update -i locales/templates/base.pot -d locales ;;
+    "update"   ) pybabel update -i locales/en-US/LC_MESSAGES/messages.pot -d locales ;;
     "new"      ) new "$2" "$3" ;;
     "compile"  ) pybabel compile -d locales ;;
     *          ) echo "No such command"; V2="" show_help; exit 1 ;;
