@@ -1,4 +1,4 @@
-from utils.translations import _
+from utils.translations import translation as _
 
 LANG = 'zh-TW'
 
