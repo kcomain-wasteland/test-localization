@@ -3,3 +3,5 @@ def _(param):
 
 
 _('test')
+
+print(_('hello, user {username}').format(username=input()))
