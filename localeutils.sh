@@ -38,7 +38,7 @@ extract() {
 }
 
 new() {
-    pybabel init -l "$1" "$2" -i locales/en-US/LC_MESSAGES/messages.pot -d locale -D bot
+    pybabel init -l "$1" "$2" -i locales/en-US/LC_MESSAGES/messages.pot -d locales -D bot
 }
 
 case $1 in
