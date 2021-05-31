@@ -1,5 +1,5 @@
 basepath = "."
 
 [[paths]]
-    reference = "locales/templates/**"
-    l10n = "locales/{locale}/LC_MESSAGES/**"
+    reference = "locales/templates/base.pot"
+    l10n = "locales/{locale}/LC_MESSAGES/base.pot"
