@@ -12,3 +12,4 @@ else:
     print(_('go eat something!!'))
 
 print(_('See you later!'))
+print(_("t"))
