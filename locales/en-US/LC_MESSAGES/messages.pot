@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: i18n@kcomain.dev\n"
-"POT-Creation-Date: 2021-06-01 07:16+0800\n"
+"POT-Creation-Date: 2021-06-03 02:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,35 +17,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.9.1\n"
 
-#: main.py:5
-msgid "test"
-msgstr ""
-
-#: main.py:6
-msgid "who are you? "
-msgstr ""
-
-#: main.py:7
-msgid "hello, user {username}"
-msgstr ""
-
-#: main.py:9
-msgid "have you eaten anything yet? "
+#: main.py:8
+msgid "{randnum}"
 msgstr ""
 
 #: main.py:10
-msgid "good!"
+msgid "test"
+msgstr ""
+
+#: main.py:11
+msgid "test 2 wgat"
 msgstr ""
 
 #: main.py:12
-msgid "go eat something!!"
+msgid "who are you? "
 msgstr ""
 
-#: main.py:14
-msgid "See you later!"
+#: main.py:13
+msgid "hello, user {username}"
 msgstr ""
 
 #: main.py:15
-msgid "t"
+msgid "have you eaten anything yet? "
+msgstr ""
+
+#: main.py:16
+msgid "good!"
+msgstr ""
+
+#: main.py:18
+msgid "go eat something!!"
+msgstr ""
+
+#: main.py:20
+msgid "See you later!"
 msgstr ""
 
